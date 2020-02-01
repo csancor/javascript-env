@@ -2,7 +2,11 @@
   "name": "javascript-development-environment",
   "version": "1.0.0",
   "description": "JavaScript development environment",
-  "scripts": {},
+  "scripts": {
+    "prestart": "babel-node build-scripts/start-msg.js",
+    "start": "npm-run-all --parallel open:src",
+    "open:src": "babel-node build-scripts/src-server"  
+  },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
