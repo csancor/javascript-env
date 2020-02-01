@@ -4,7 +4,7 @@
   "description": "JavaScript development environment",
   "scripts": {
     "prestart": "babel-node build-scripts/start-msg.js",
-    "start": "npm-run-all --parallel open:src",
+    "start": "npm-run-all --parallel open:src lint-watch",
     "open:src": "babel-node build-scripts/src-server",
     "lint": "esw webpack.config.* src build-scripts --color",
     "lint-watch": "npm run lint -- --watch"
