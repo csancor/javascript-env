@@ -9,11 +9,12 @@
     "lint": "esw webpack.config.* src build-scripts --color",
     "lint-watch": "npm run lint -- --watch",
     "test": "mocha --reporter progress build-scripts/test-setup.js \"src/**/*.test.js\"",
-    "test-watch":"npm run test -- --watch"
+    "test-watch": "npm run test -- --watch"
   },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "babel": "^6.23.0",
     "jshint": "^2.11.0",
     "whatwg-fetch": "1.0.0"
   },
