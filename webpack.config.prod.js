@@ -48,7 +48,7 @@ export default {
           minifyURLs: true
         },
         inject: true,
-        trackJSToken : "3ad496fb070946a592f0975e3bd0b4f7"
+        trackJSToken : "Insert your token here"
       }),
       // Eliminate duplicate packages when generating bundle
       new webpack.optimize.DedupePlugin(),
