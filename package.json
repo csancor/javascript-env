@@ -22,7 +22,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
-    "@types/faker": "^4.1.9",
+    "@types/faker": "^4.1.12",
     "babel": "^6.23.0",
     "babel-node": "0.0.1-security",
     "core-util-is": "^1.0.2",
