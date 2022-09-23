@@ -25,7 +25,7 @@
     "@types/faker": "^4.1.9",
     "babel": "^6.23.0",
     "babel-node": "0.0.1-security",
-    "core-util-is": "^1.0.2",
+    "core-util-is": "^1.0.3",
     "faker": "^4.1.0",
     "jshint": "^2.11.0",
     "whatwg-fetch": "1.0.0"
