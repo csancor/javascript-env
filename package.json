@@ -22,13 +22,11 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
-    "@types/faker": "^4.1.9",
+    "@types/faker": "^4.1.12",
     "babel": "^6.23.0",
     "babel-node": "0.0.1-security",
-    "core-util-is": "^1.0.2",
-    "faker": "^4.1.0",
-    "jshint": "^2.13.4",
-    "whatwg-fetch": "1.0.0"
+    "core-util-is": "^1.0.3",
+    "faker": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -50,7 +48,7 @@
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "1.0.1",
     "html-webpack-plugin": "2.22.0",
-    "jsdom": "9.8.0",
+    "jsdom": "16.5.0",
     "json-schema-faker": "^0.4.7",
     "json-server": "^0.15.1",
     "localtunnel": "1.8.1",
